@@ -170,3 +170,75 @@
   margin: 0;
   padding: 110px 100px 35px 48px;
 }
+
+@media screen and (max-width: 1300px) {
+  .sber__portal-text {
+    bottom: 25%;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .sber__tech {
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+  }
+
+  .sber__portal-text {
+    bottom: 15%;
+  }
+
+  .sber__box {
+    width: 630px;
+  }
+  .sber__portal {
+    width: 630px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .page__title {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .sber__tech {
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 357px;
+  }
+
+  .sber__box {
+    grid-column: span 4;
+    width: 343px;
+  }
+  .sber__portal {
+    grid-column: span 4;
+    width: 343px;
+  }
+
+  .sber__tech-title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .sber__tech-subtitle {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .sber__box-text {
+    position: absolute;
+    left: 56px;
+    top: 118px;
+  }
+
+  .sber__portal-text {
+    position: absolute;
+    left: 56px;
+    bottom: 18px;
+  }
+
+  .page__subtitle {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
