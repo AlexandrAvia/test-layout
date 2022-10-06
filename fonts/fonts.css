@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "SB Sans Text";
+  font-style: normal;
+  font-weight: 400;
+  src: url("SBSansText-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "SB Sans Display";
+  font-style: normal;
+  font-weight: 600;
+  src: url("SBSansDisplay-Regular.ttf") format("ttf");
+}
