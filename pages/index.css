@@ -195,7 +195,7 @@
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
   .metrica {
     margin: 77px 16px 80px;
     background: url("../images/sbermetric-small.png") no-repeat;
@@ -220,9 +220,7 @@
     font-size: 14px;
     line-height: 20px;
   }
-}
 
-@media screen and (max-width: 800px) {
   .page__text {
     margin: 105px auto 30px;
   }
